@@ -47,8 +47,8 @@ const Sports = () => {
       </div>
 
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 place-content-center">
-        {sportsItems.map((item) => (
-          <div className="card max-w-sm p-2 bg-white drop-shadow-xl dark:bg-Gray2 dark:border-gray-700">
+        {sportsItems.map((item,index) => (
+          <div key={index} className="card max-w-sm p-2 bg-white drop-shadow-xl dark:bg-Gray2 dark:border-gray-700">
             <img
               className="w-full h-96 object-cover object-center"
               src={item.image}
