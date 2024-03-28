@@ -82,8 +82,8 @@ const Collections = () => {
       <div className=" slide-container sm:px-8 px-32 py-10 sm:mx-2 mx-24 flex justify-center">
         <Slider {...settings} className="w-9/12 ">
           {/* <div className="flex"> */}
-          {collectionItems.map((item) => (
-            <div className="flex items-center justify-center">
+          {collectionItems.map((item, index) => (
+            <div key={index} className="flex items-center justify-center">
               <div className="bg-white dark:bg-Gray2 relative drop-shadow-xl p-3 md:w-64 sm:w-48">
                 <div className="">
                   <img
