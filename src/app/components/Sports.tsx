@@ -37,16 +37,17 @@ const sportsItems: ISportsItem[] = [
 const Sports = () => {
   return (
     <div className=" mx-24 ">
-      <div className="flex justify-between">
+        {/* <div className="sticky top-0 le">hii</div> */}
+      <div className="flex justify-between ">
         <h1 className="w-20 mb-6 text-2xl font-bold  border-b-2 border-lightBlue py-1">
           Sports
         </h1>
-        <div className=" sticky top-0">
+        <div className="fixed right-24 z-10 ">
           <Toggle />
         </div>
       </div>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 place-content-center">
+      <div className="grid sm:grid-cols-1 z-0 md:grid-cols-3 lg:grid-cols-5 gap-4 place-content-center">
         {sportsItems.map((item,index) => (
           <div key={index} className="card max-w-sm p-2 bg-white drop-shadow-xl dark:bg-Gray2 dark:border-gray-700">
             <img

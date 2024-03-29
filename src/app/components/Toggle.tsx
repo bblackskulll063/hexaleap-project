@@ -24,7 +24,7 @@ const Toggle = () => {
   }, [darkMode]);
 
   return (
-    <div className="bg-lightzinc dark:bg-Gray1 h-16 flex justify-between py-2">
+    <div className="bg-transparent h-16 flex justify-between py-2">
       <div
         className="relative w-16 h-8 flex items-center dark:bg-gray-900 bg-teal-500 cursor-pointer rounded-full p-1 dark:border dark:border-white"
         onClick={() => setDarkMode(!darkMode)}
