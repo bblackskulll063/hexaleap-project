@@ -76,7 +76,8 @@ const Sports = () => {
           </div>
         ))}
         <div className="max-w-sm h-10/12 p-2 bg-white drop-shadow-xl dark:bg-Gray2 dark:border-gray-700">
-          <div className="">
+          <div className="relative">
+            <div className="absolute right-0 bg-black px-5 py-1 text-white ">Ad</div>
             <img
               className="w-full h-64 object-center"
               src="ad.jpeg"
