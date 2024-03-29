@@ -69,7 +69,7 @@ const Collections = () => {
   };
 
   return (
-    <div className="text-center bg-white mx-24 py-8 collection-body max-h-100 ">
+    <div className="text-center bg-white mx-24 pt-16 collection-body max-h-100 ">
       <div className="sm:px-8 md:px-24">
         <h1 className="mb-5 text-5xl font-bold">Collection Spotlight</h1>
         <p className="md:px-20 sm:px-5 text-sm">
